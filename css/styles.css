@@ -1,5 +1,6 @@
 :root {
   --primary-color: #6c63ff;
+  --branding-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -17,7 +18,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 68px;
 }
 
 h2 {
@@ -70,7 +71,6 @@ p {
 }
 
 .about-paragraphs {
-  display: flex;
   margin: 30px 0;
 }
 
@@ -100,6 +100,14 @@ p {
   color: white;
 }
 
+.btn {
+  font-weight: 400;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: #212529;
+  text-decoration: none;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -107,4 +115,15 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .about-section-content {
+    text-align: center;
+  }
 }
