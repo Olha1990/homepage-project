@@ -52,8 +52,10 @@ p {
   text-align: center;
 }
 
-a {
+.hero {
+  background: var(--secondary-color);
   text-align: center;
+  padding: 160px 20px;
 }
 
 .text-muted {
