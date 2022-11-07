@@ -64,7 +64,6 @@ p {
 
 .text-muted {
   color: #6c757d !important;
-  background: white;
 }
 
 .content-container {
@@ -133,13 +132,9 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: black;
   font-size: 28px;
   text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
 }
 
 .primary-link {
@@ -190,17 +185,18 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
+footer .email-link a {
   text-decoration: none;
   color: black;
   font-size: 24px;
 }
 
-footer .email-link:hover {
-  color: var (--branding-color);
+footer .email-link a:hover {
+  text-decoration: none;
+  color: var(--branding-color);
 }
 
-footer .social-links a {
+footer .social-links i {
   margin: 0 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
@@ -210,7 +206,7 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
-footer .social-links a:hover {
+footer .social-links i:hover {
   color: white;
   background: var(--branding-color);
 }
