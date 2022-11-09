@@ -54,6 +54,7 @@ p {
 
 .hero {
   background: var(--secondary-color);
+  margin: 60px auto;
   padding: 80px 20px;
 }
 
@@ -97,6 +98,37 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 .contact-link {
