@@ -261,6 +261,9 @@ footer .social-links i:hover {
   }
 
   .img-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
     max-width: 40%;
     margin: auto;
   }
